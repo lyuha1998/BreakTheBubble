@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08D67CE6073D97C7EC31DC97 /* Pods_BreaktheBubble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61A9FFA07DAFD466E2E1344 /* Pods_BreaktheBubble.framework */; };
 		3A2EA1FA244116970000B4D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EA1F9244116970000B4D3 /* AppDelegate.swift */; };
 		3A2EA1FC244116970000B4D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EA1FB244116970000B4D3 /* SceneDelegate.swift */; };
 		3A2EA1FE244116970000B4D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EA1FD244116970000B4D3 /* ViewController.swift */; };
@@ -17,9 +18,16 @@
 		3A2EA21224426F510000B4D3 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EA21124426F510000B4D3 /* SelectionViewController.swift */; };
 		3A2EA214244271820000B4D3 /* NetWorkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EA213244271820000B4D3 /* NetWorkingViewController.swift */; };
 		3A2EA2162442B5550000B4D3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2EA2152442B5550000B4D3 /* DetailViewController.swift */; };
+		3A3C8F8F2450ADBC00A34A4F /* BIKEBCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3C8F8E2450ADBC00A34A4F /* BIKEBCViewController.swift */; };
+		3A3C8F912450AF0C00A34A4F /* bikebc final.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C8F902450AF0C00A34A4F /* bikebc final.mp4 */; };
+		3A45C8C2244F671F00887999 /* gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A45C8C1244F671F00887999 /* gif.swift */; };
+		3A45C8C4244F67F700887999 /* checkinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A45C8C3244F67F700887999 /* checkinViewController.swift */; };
+		3A45C8C6244F694B00887999 /* final.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3A45C8C5244F694B00887999 /* final.gif */; };
+		3A5B44BE244A37E40097B133 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A5B44BD244A37E40097B133 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		011AFE53EDE8524C45A3E11F /* Pods-BreaktheBubble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreaktheBubble.release.xcconfig"; path = "Target Support Files/Pods-BreaktheBubble/Pods-BreaktheBubble.release.xcconfig"; sourceTree = "<group>"; };
 		3A2EA1F6244116970000B4D3 /* BreaktheBubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreaktheBubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2EA1F9244116970000B4D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A2EA1FB244116970000B4D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +40,14 @@
 		3A2EA21124426F510000B4D3 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 		3A2EA213244271820000B4D3 /* NetWorkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkingViewController.swift; sourceTree = "<group>"; };
 		3A2EA2152442B5550000B4D3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3A3C8F8E2450ADBC00A34A4F /* BIKEBCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BIKEBCViewController.swift; sourceTree = "<group>"; };
+		3A3C8F902450AF0C00A34A4F /* bikebc final.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bikebc final.mp4"; sourceTree = "<group>"; };
+		3A45C8C1244F671F00887999 /* gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gif.swift; sourceTree = "<group>"; };
+		3A45C8C3244F67F700887999 /* checkinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkinViewController.swift; sourceTree = "<group>"; };
+		3A45C8C5244F694B00887999 /* final.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = final.gif; sourceTree = "<group>"; };
+		3A5B44BD244A37E40097B133 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E38669D8821F5E95E073EF0 /* Pods-BreaktheBubble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreaktheBubble.debug.xcconfig"; path = "Target Support Files/Pods-BreaktheBubble/Pods-BreaktheBubble.debug.xcconfig"; sourceTree = "<group>"; };
+		E61A9FFA07DAFD466E2E1344 /* Pods_BreaktheBubble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreaktheBubble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D67CE6073D97C7EC31DC97 /* Pods_BreaktheBubble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,8 +65,11 @@
 		3A2EA1ED244116970000B4D3 = {
 			isa = PBXGroup;
 			children = (
+				3A3C8F902450AF0C00A34A4F /* bikebc final.mp4 */,
 				3A2EA1F8244116970000B4D3 /* BreaktheBubble */,
 				3A2EA1F7244116970000B4D3 /* Products */,
+				7949A2B63833049651826E76 /* Pods */,
+				90B19728FC0F187EB36BDB56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,13 +90,35 @@
 				3A2EA1FF244116970000B4D3 /* Main.storyboard */,
 				3A2EA21124426F510000B4D3 /* SelectionViewController.swift */,
 				3A2EA213244271820000B4D3 /* NetWorkingViewController.swift */,
+				3A45C8C5244F694B00887999 /* final.gif */,
 				3A2EA2152442B5550000B4D3 /* DetailViewController.swift */,
+				3A5B44BD244A37E40097B133 /* GoogleService-Info.plist */,
+				3A3C8F8E2450ADBC00A34A4F /* BIKEBCViewController.swift */,
+				3A45C8C3244F67F700887999 /* checkinViewController.swift */,
 				3A2EA20D2442354A0000B4D3 /* FirstPageViewController.swift */,
+				3A45C8C1244F671F00887999 /* gif.swift */,
 				3A2EA202244116990000B4D3 /* Assets.xcassets */,
 				3A2EA204244116990000B4D3 /* LaunchScreen.storyboard */,
 				3A2EA207244116990000B4D3 /* Info.plist */,
 			);
 			path = BreaktheBubble;
+			sourceTree = "<group>";
+		};
+		7949A2B63833049651826E76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E38669D8821F5E95E073EF0 /* Pods-BreaktheBubble.debug.xcconfig */,
+				011AFE53EDE8524C45A3E11F /* Pods-BreaktheBubble.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		90B19728FC0F187EB36BDB56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E61A9FFA07DAFD466E2E1344 /* Pods_BreaktheBubble.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A2EA20A244116990000B4D3 /* Build configuration list for PBXNativeTarget "BreaktheBubble" */;
 			buildPhases = (
+				D5BA8D51EA2F02E584ECAA2F /* [CP] Check Pods Manifest.lock */,
 				3A2EA1F2244116970000B4D3 /* Sources */,
 				3A2EA1F3244116970000B4D3 /* Frameworks */,
 				3A2EA1F4244116970000B4D3 /* Resources */,
+				FF80681C8DF902C5BCF35B14 /* [CP] Embed Pods Frameworks */,
+				12EADB4401CCDF9AD7264328 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,22 +183,87 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A2EA206244116990000B4D3 /* LaunchScreen.storyboard in Resources */,
+				3A5B44BE244A37E40097B133 /* GoogleService-Info.plist in Resources */,
 				3A2EA203244116990000B4D3 /* Assets.xcassets in Resources */,
+				3A3C8F912450AF0C00A34A4F /* bikebc final.mp4 in Resources */,
 				3A2EA201244116970000B4D3 /* Main.storyboard in Resources */,
+				3A45C8C6244F694B00887999 /* final.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12EADB4401CCDF9AD7264328 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BreaktheBubble/Pods-BreaktheBubble-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BreaktheBubble/Pods-BreaktheBubble-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BreaktheBubble/Pods-BreaktheBubble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5BA8D51EA2F02E584ECAA2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BreaktheBubble-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF80681C8DF902C5BCF35B14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BreaktheBubble/Pods-BreaktheBubble-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BreaktheBubble/Pods-BreaktheBubble-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BreaktheBubble/Pods-BreaktheBubble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3A2EA1F2244116970000B4D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A45C8C4244F67F700887999 /* checkinViewController.swift in Sources */,
 				3A2EA21224426F510000B4D3 /* SelectionViewController.swift in Sources */,
 				3A2EA20E2442354A0000B4D3 /* FirstPageViewController.swift in Sources */,
+				3A45C8C2244F671F00887999 /* gif.swift in Sources */,
 				3A2EA1FE244116970000B4D3 /* ViewController.swift in Sources */,
 				3A2EA1FA244116970000B4D3 /* AppDelegate.swift in Sources */,
+				3A3C8F8F2450ADBC00A34A4F /* BIKEBCViewController.swift in Sources */,
 				3A2EA214244271820000B4D3 /* NetWorkingViewController.swift in Sources */,
 				3A2EA1FC244116970000B4D3 /* SceneDelegate.swift in Sources */,
 				3A2EA2162442B5550000B4D3 /* DetailViewController.swift in Sources */,
@@ -298,6 +408,7 @@
 		};
 		3A2EA20B244116990000B4D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E38669D8821F5E95E073EF0 /* Pods-BreaktheBubble.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,6 +426,7 @@
 		};
 		3A2EA20C244116990000B4D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011AFE53EDE8524C45A3E11F /* Pods-BreaktheBubble.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

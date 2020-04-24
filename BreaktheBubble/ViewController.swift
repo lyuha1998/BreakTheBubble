@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import MapKit
+import CoreLocation
 
 class ViewController: UIViewController {
 
@@ -14,6 +16,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     var trendingEvents: [String] = ["Agape Latte Sweet Talk","Women in Business Gala", "Asian Caucus First General Meeting", "Campus Activity Board Tailgate", "Modstock Concert", "ALC Ball 2020" ]
     var trendingEventsLocation =  ["Robsham Theater 10:00AM-11:00AM","Boston College Club in Financial District 4:00-8:00PM","Devlin 008 9:00PM-9:30PM","Conte Forum 5:00PM-6:00PM","Margot Recreational Center 5:00PM-6:00PM","Westin Copley Hotel 11:00PM-11:30PM"]
+    var trendingEventsLatitude: [CLLocationDegrees] = [42.337518,42.355224,42.335397,42.335692,42.337507,42.348419]
+    var trendingEventsLongtitude: [CLLocationDegrees] = [-71.168188,-71.055700,-71.169717,-71.167695,-71.164401,-71.077447]
     
     var yAtLanding: CGFloat = 0
     
@@ -35,6 +39,8 @@ class ViewController: UIViewController {
                let selectedIndexPath = tableView.indexPathForSelectedRow!
                destination.eventname = trendingEvents[selectedIndexPath.row]
             destination.eventDetail = trendingEventsLocation[selectedIndexPath.row]
+            destination.eventlatitude = trendingEventsLatitude[selectedIndexPath.row]
+            destination.eventlongitude=trendingEventsLongtitude[selectedIndexPath.row]
             
                
            } else {

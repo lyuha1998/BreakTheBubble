@@ -1,0 +1,6 @@
+framework module Pods_BreaktheBubble {
+  umbrella header "Pods-BreaktheBubble-umbrella.h"
+
+  export *
+  module * { export * }
+}

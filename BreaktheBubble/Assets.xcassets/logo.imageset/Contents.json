@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Never be afraid to try something new, because life gets boring when you stay within the limits of what you already know.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
